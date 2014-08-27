@@ -2,7 +2,7 @@ angular.module('todoApp', [])
 .controller('todoController', ['$scope', function($scope) {
   $scope.user = false;
   $scope.cards = [
-    {card: 'Introduction',
+    {card: 'Starting out',
      todos: [
       {text: 'learn angular', done:true},
       {text: 'Eat lots of vegetables', done:false}
